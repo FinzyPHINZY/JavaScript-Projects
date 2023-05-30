@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1.125rem;
+}
+
+.container {
+    width: 95%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.main-section {
+    margin: 20rem 5rem;
+}
+
+.main-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    font-size: 2rem;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+footer {
+    background: rgb(6, 6, 74);
+    text-align: center;
+    color: white;
+}
+
+.f-name {
+    margin: 2rem;
+}
+
+.f-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.f-c-title {
+    margin: 0 0 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
